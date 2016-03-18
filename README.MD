@@ -1,4 +1,5 @@
-# ImperialMetric
+# ImperialMetric [![Build Status](https://travis-ci.org/tiansijie/imperial-metric.svg?branch=master)](https://travis-ci.org/tiansijie/imperial-metric)
+
 A module that let you convert imperial to metric and metric to imperial easily
 
 ## Usage
