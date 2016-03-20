@@ -36,3 +36,13 @@ test("1 m", function(t) {
 	t.equal(IM(1000).from("m").to("km"), 1, "equal 1 km");
 	t.end();
 });
+
+
+test("1 sqrt foot", function(t) {
+	t.equal(IM(1).from("sqrt-foot").to("sqrt-inch"), 144, "equal 144 sqrt inch");
+	t.equal(IM(1).from("sqrt-foot").to("sqrt-m"), 144 * (6.4516 / 10000), "equal 0.09290304 sqrt foot");
+	t.equal(IM(1).from("sqrt-foot").to("sqrt-cm"), 144 * (6.4516 / 10000) * 10000, "equal 929.0304 sqrt cm");
+	t.equal(IM(1).from("sqrt-foot").to("sqrt-km"), 144 * (6.4516 / 10000) / 1000000, "equal 0.00000009290304 sqrt km");
+	t.equal(IM(1).from("sqrt-foot").to("sqrt-mm"), 144 * (6.4516 / 10000) * 1000000, "equal 92903.04 sqrt mm");
+	t.end();
+});
