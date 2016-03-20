@@ -10,6 +10,7 @@ A module that let you convert imperial to metric and metric to imperial easily
 	IM(1).from('cm').to("foot"); // 0.03280839895
 	IM(1).from('foot').to("m"); // 0.3048
 ```
+includes inch, foot, mm, cm, m, km
 
 ## Install
 ```
