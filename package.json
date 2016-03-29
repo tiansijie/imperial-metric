@@ -6,6 +6,11 @@
   "scripts": {
     "test": "node test.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tiansijie/imperial-metric.git"
+  },
+  "homepage": "https://github.com/tiansijie/imperial-metric",
   "keywords": [
     "imperial",
     "metric",
